@@ -53,9 +53,9 @@ app.get('/about', (req,res)=>{
     });
 });
 //rendereo menu page
-app.get('/about', (req,res)=>{ 
-    res.render('menu.hbs',{
-        pageTitle: 'Menu',
+app.get('/portafolio', (req,res)=>{ 
+    res.render('portafolio.hbs',{
+        pageTitle: 'Portafolio',
     });
 });
 
