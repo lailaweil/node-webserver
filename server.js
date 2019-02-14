@@ -52,6 +52,12 @@ app.get('/about', (req,res)=>{
         pageTitle: 'About pages',
     });
 });
+//rendereo menu page
+app.get('/about', (req,res)=>{ 
+    res.render('menu.hbs',{
+        pageTitle: 'Menu',
+    });
+});
 
 //seteo el puerto
 app.listen(port, ()=>{ 
